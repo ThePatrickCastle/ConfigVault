@@ -1,0 +1,19 @@
+# Increase Volume
+"amixer set Master 5%+"
+ XF86AudioRaiseVolume
+
+# Decrease Volume
+"amixer set Master 5%-"
+ XF86AudioLowerVolume
+
+# Mute Volume
+"amixer set Master toggle"
+ XF86Launch1
+
+# Increase keylight
+"brightnessctl --device='asus::kbd_backlight' set +1"
+ XF86KbdBrightnessUp
+
+# Decrease keylight 
+"brightnessctl --device='asus::kbd_backlight' set 1-" 
+ XF86KbdBrightnessDown
